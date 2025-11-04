@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rkd-engineer.in/sitemap.xml

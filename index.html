@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Data Engineer Trainee</title>
+  <meta name="description" content="Portfolio of Renuka Devi A — Data Engineer. Projects, skills, experience, and contact." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#f6f9fc;
+      --surface:#ffffff;
+      --muted:#556677;
+      --accent:#3b82f6; /* light blue */
+      --accent-2:#06b6d4;
+      --glass: rgba(59,130,246,0.06);
+      --radius:12px;
+      --shadow: 0 8px 24px rgba(20,30,50,0.06);
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,Segoe UI,Arial;background:var(--bg);color:#092038}
+    a{color:inherit;text-decoration:none}
+    .wrap{max-width:1100px;margin:36px auto;padding:28px}
+
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{display:flex;gap:16px;align-items:center}
+    .avatar{width:84px;height:84px;border-radius:16px;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:28px;box-shadow:var(--shadow)}
+    h1{margin:0;font-size:20px}
+    .subtitle{margin:4px 0 0 0;color:var(--muted);font-size:14px}
+
+    .cta-group{display:flex;gap:10px}
+    .btn{background:var(--accent);color:white;padding:10px 14px;border-radius:10px;font-weight:600;border:none;cursor:pointer;box-shadow:0 6px 18px rgba(59,130,246,0.16)}
+    .btn.ghost{background:transparent;border:1px solid rgba(9,32,56,0.06);color:var(--muted);box-shadow:none}
+
+    main{display:grid;grid-template-columns:1fr 340px;gap:22px;margin-top:22px}
+    @media (max-width:980px){main{grid-template-columns:1fr}}
+
+    .card{background:var(--surface);border-radius:var(--radius);padding:18px;box-shadow:var(--shadow)}
+
+    /* Intro */
+    .intro{display:flex;flex-direction:column;gap:12px}
+    .meta{display:flex;gap:10px;flex-wrap:wrap;color:var(--muted);font-size:13px}
+
+    /* Skills */
+    .skills-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:10px}
+    @media (max-width:760px){.skills-grid{grid-template-columns:repeat(2,1fr)}}
+    .skill-pill{padding:8px 10px;border-radius:10px;background:var(--glass);color:#0b2340;font-size:13px}
+
+    /* Projects */
+    .projects-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:12px}
+    @media (max-width:760px){.projects-grid{grid-template-columns:1fr}}
+    .proj-card{display:flex;flex-direction:column;gap:8px;padding:14px;border-radius:12px;background:linear-gradient(180deg,#fff,#fbfdff);border:1px solid rgba(9,32,56,0.03)}
+    .proj-head{display:flex;justify-content:space-between;align-items:start;gap:8px}
+    .proj-title{font-weight:650;margin:0}
+    .proj-tech{font-size:13px;color:var(--muted)}
+    .proj-desc{color:var(--muted);font-size:14px}
+    .proj-actions{display:flex;gap:8px;margin-top:auto}
+    .link-btn{padding:8px 10px;border-radius:10px;border:1px solid rgba(9,32,56,0.06);background:transparent;font-size:13px}
+
+    /* Experience & Education */
+    .timeline{display:flex;flex-direction:column;gap:12px}
+    .timeline-item{padding:12px;border-radius:10px;background:rgba(9,32,56,0.03)}
+    .small{font-size:13px;color:var(--muted)}
+
+    /* Sidebar */
+    .contact-item{display:flex;align-items:center;gap:10px;color:var(--muted);font-size:14px}
+    .quick-stats{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:10px}
+    .stat{background:var(--glass);padding:8px;border-radius:8px;text-align:center}
+
+    footer{text-align:center;color:var(--muted);font-size:13px;margin-top:22px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="avatar">RD</div>
+        <div>
+          <h1>Renuka Devi A</h1>
+          <div class="subtitle">Data Engineer Trainee • Azure • PySpark • SQL • Power BI</div>
+          <div class="meta" style="margin-top:8px">
+            <span class="small">Trichy, Tamilnadu</span>
+            <span class="small">Open to work</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="cta-group">
+        <a class="btn" href="#projects">See Projects</a>
+        <a class="btn ghost" href="#contact">Contact</a>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="card intro">
+          <h2 style="margin:0 0 6px 0">About</h2>
+          <p style="margin:0;color:var(--muted);font-size:15px">I am a passionate Data Engineer Trainee with a strong interest in building efficient data pipelines and managing large-scale data systems. I have hands-on experience with Azure Data Lake, Azure Synapse Analytics, SQL, and Power BI, focusing on data cleaning, transformation, and visualization. I enjoy turning raw data into meaningful insights that support business decision-making. I am eager to learn new technologies, improve data processes, and grow into a skilled data engineer capable of handling end-to-end data solutions.</p>
+
+          <div style="margin-top:14px">
+            <h3 style="margin:0 0 8px 0">Core Skills</h3>
+            <div class="skills-grid">
+                <div class="skill-pill">HTML</div>
+                <div class="skill-pill">CSS</div>
+                <div class="skill-pill">Bootstrap</div>
+              <div class="skill-pill">Python</div>
+              <div class="skill-pill">SQL</div>
+              <div class="skill-pill">Azure Data Factory</div>
+              <div class="skill-pill">Azure Synapse</div>
+              <div class="skill-pill">Data Warehousing</div>
+              <div class="skill-pill">PySpark</div>
+              <div class="skill-pill">Power BI</div>
+              <div class="skill-pill">Data Modeling</div>
+              <div class="skill-pill">ETL Pipelines</div>
+              <div class="skill-pill">Snowflake</div>
+              <div class="skill-pill">Big Data Basics (Spark, Hadoop)</div>
+              <div class="skill-pill">Git & GitHub</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" id="projects" style="margin-top:14px">
+          <h2 style="margin:0 0 12px 0">Projects</h2>
+          <div class="projects-grid">
+
+            <article class="proj-card">
+              <div class="proj-head">
+                <div>
+                  <h3 class="proj-title">Azure Data Lake Implementation using Synapse Analytics</h3>
+                  <div class="proj-tech">Azure Data Factory • Azure Synapse Analytics • ETL • SQL • PySpark</div>
+                </div>
+                <div class="small">2025</div>
+              </div>
+              <p class="proj-desc">I built an end-to-end data lake architecture using an Azure Storage Account with structured containers organized into raw, silver, and gold layers. The Azure Synapse Analytics workspace was integrated with the businessstorage container to perform ETL operations efficiently. PySpark was utilized for data cleaning and transformation, while SQL was applied to implement business logic and generate business-ready datasets. This setup resulted in a scalable and efficient data pipeline designed to support comprehensive analytics and reporting requirements.</p>
+              <div class="proj-actions">
+                <a class="link-btn" href="#">GitHub</a>
+                <a class="link-btn" href="#">Architecture</a>
+              </div>
+            </article>
+
+            <article class="proj-card">
+              <div class="proj-head">
+                <div>
+                  <h3 class="proj-title">Data visualization Using PowerBI</h3>
+                  <div class="proj-tech">SQL • DAX • Star Schema • Power BI</div>
+                </div>
+                <div class="small">2025</div>
+              </div>
+              <p class="proj-desc">I created a data visualization dashboard to show important business insights in an easy-to-understand way. I collected and cleaned the data using SQL, then used Power BI to make charts and reports. This project helped turn raw data into clear visuals that support better decision-making.</p>
+              <div class="proj-actions">
+                <a class="link-btn" href="#">GitHub</a>
+                <a class="link-btn" href="#">Report</a>
+              </div>
+            </article>
+
+            
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:14px">
+          <h2 style="margin:0 0 10px 0">Education</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div><strong>MAM College Of Engineering And Technology</strong></div>
+              <br>
+              <div><stronger>B.Tech - Information Technology</stronger></div>
+              <br>
+              <div class="small">2019 - 2023 (CGPA-7.39)</div>
+            </div>
+
+
+            <h2 style="margin:0 0 10px 0">Certifications</h2>
+            <div class="timeline-item">
+              <div class="small">DP-900 - Azure Data Fundamentals</div>
+            </div>
+            <div class="timeline-item">
+              <div class="small">HackerRank - SQL (Intermediate)</div>
+            </div>
+             <div class="timeline-item">
+              <div class="small">HackerRank - SQL (Basics)</div>
+            </div>
+            <div class="timeline-item">
+              <div class="small">Power BI - Coursera</div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <aside>
+        <div class="card">
+          <h3 style="margin:0 0 8px 0">Contact</h3>
+          <div style="display:flex;flex-direction:column;gap:8px">
+            <div class="contact-item">📧 <a href="mailto:renukadevi@email.com">renukadeviananthan1407@gmail.com</a></div>
+            <div class="contact-item">🔗 <a href="www.linkedin.com/in/renuka-devi-ananthan-ab104918b">www.linkedin.com/in/renuka-devi-ananthan-ab104918b</a></div>
+            <div class="contact-item">💻 <a href="https://github.com/Renukadeviananthan14">https://github.com/Renukadeviananthan14</a></div>
+            <div class="contact-item">📍 Trichy, Tamilnadu</div>
+          </div>
+
+          <div style="margin-top:12px">
+            <div class="small">Quick stats</div>
+            <div class="quick-stats">
+              <div class="stat"><strong>SQL</strong><div class="small">Database</div></div>
+              <div class="stat"><strong>Azure</strong><div class="small">Cloud</div></div>
+              <div class="stat"><strong>Python</strong><div class="small">Language</div></div>
+              <div class="stat"><strong>Power BI</strong><div class="small">visualization</div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:14px">
+          <h3 style="margin:0 0 8px 0">Professional Experience</h3>
+          <div class="large">Data Analyst - Ingage Technologies Pvt Ltd<br>Jan 2025 - Present</div>
+          <ul style="margin-top:8px">
+            <li class="small">Assisted in developing and maintaining data pipelines using Azure Synapse Analytics and Data Factory.</li>
+            <li class="small">Wrote optimized SQL queries to extract, transform, and load (ETL) data into staging and production environments</li>
+            <li class="small">Gained hands-on experience in data cleaning, transformation, and automation using PySpark and Azure tools.</li>
+          </ul>
+
+          <div class="large">Data Annotator (Team Lead) - Bigwigs Technologies<br>Feb 2024 - Nov 2024</div>
+          <ul style="margin-top:8px">
+            <li class="small">Managed and maintained large datasets in MS Excel, ensuring data accuracy and consistency.</li>
+            <li class="small">Utilized advanced Excel functions (e.g.,Pivot Tables) to analyze and report data.</li>
+            <li class="small">Prepared daily, weekly, and monthly reports to track process performance and meet KPIs.</li>
+          </ul>
+        </div>
+
+        <div class="card" style="margin-top:14px">
+          <h3 style="margin:0 0 8px 0">Soft Skills</h3>
+          <ol class="small" style="margin:0;padding-left:18px">
+            <li>Problem Solving</li>
+            <li>Analytical Thinking</li>
+            <li>Team Collaboration</li>
+          </ol>
+        </div>
+      </aside>
+    </main>
+
+    <section id="contact" style="margin-top:18px">
+      <div class="card">
+        <h2 style="margin:0 0 8px 0">Get in touch</h2>
+        <p class="small" style="margin:0 0 12px 0;color:var(--muted)">Email me or include links to your GitHub and LinkedIn so recruiters can review projects and reach out.</p>
+        <div style="display:flex;gap:8px">
+          <a class="btn" href="mailto:renukadeviananthan1407@gmail.com">Email</a>
+          <a class="btn ghost" href="#">Download PDF</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>© <strong>Renuka Devi A</strong> — Data Engineer Trainee</footer>
+  </div>
+</body>
+</html>
